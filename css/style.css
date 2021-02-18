@@ -1,0 +1,11 @@
+body {
+    background: greenyellow;
+}
+
+.clock {
+    position:relative;
+    text-align: center;
+    font-family: "luminari";
+    font-size: 82;
+    top: 50;
+}
