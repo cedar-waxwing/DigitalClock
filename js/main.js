@@ -21,12 +21,11 @@ can be included in same if statement setup.*/
 
     if (hour>12) {
         hour -= 12;
-        let period = "PM";
+        period = "PM";
     }
 
-    if (hour == 0) {
-        hour = 12;
-        let period = "AM";
+    if (hour < 12) {
+        period = "AM";
     }
 
 
