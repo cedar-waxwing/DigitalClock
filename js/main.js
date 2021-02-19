@@ -18,16 +18,14 @@ function displayTime() {
 
 /*Switching military to cilivian time as well as AM/PM differential; 
 can be included in same if statement setup.*/
-
+ 
+if (hour < 12) {
+    period = "AM";
+}
     if (hour>12) {
         hour -= 12;
         period = "PM";
     }
-
-    if (hour < 12) {
-        period = "AM";
-    }
-
 
 //Ternary operator to abbreviate for loops. Example: "( condition ) ? run this code : otherwise run this code instead" 
 
